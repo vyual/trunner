@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/vR4eslav/trunner">
+  <a href="https://github.com/vyual/trunner">
     <img src="recources/window_icon.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -39,11 +39,11 @@
   <p align="center">
     Run and host your python telegram bots!
     <br />
-    <a href="https://github.com/vR4eslav/trunner">View Demo</a>
+    <a href="https://github.com/vyual/trunner">View Demo</a>
     ·
-    <a href="https://github.com/vR4eslav/trunner/issues">Report Bug</a>
+    <a href="https://github.com/vyual/trunner/issues">Report Bug</a>
     ·
-    <a href="https://github.com/vR4eslav/trunner/issues">Request Feature</a>
+    <a href="https://github.com/vyual/trunner/issues">Request Feature</a>
   </p>
 </div>
 
@@ -79,7 +79,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/vR4eslav/trunner)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/vyual/trunner)
 
 This multi-tool was created by a telegram bot developer for anyone who wants to simplify the work involved in developing, hosting and managing their telegram bot.
 
@@ -119,7 +119,7 @@ _It's simple._
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/vR4eslav/trunner.git
+   git clone https://github.com/vyual/trunner.git
    ```
 2. Open it with QT creator
 3. Setup your default kit, and static kit of Qt 5.12.8
@@ -156,7 +156,7 @@ What you can do:
     - [ ] PostgreSQL
 - [ ] many other features...
 
-See the [open issues](https://github.com/vr4eslav/trunner/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/vyual/trunner) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,7 +193,7 @@ Distributed under the GPL-3.0 license. See `LICENSE.txt` for more information.
 
 Vyacheslav - botdevslava@gmail.com
 
-Project Link: [https://github.com/vr4eslav/trunner](https://github.com/vr4eslav/trunner)
+Project Link: [https://github.com/vyual/trunner](https://github.com/vyual/trunner)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -216,18 +216,17 @@ Use this space to list resources you find helpful and would like to give credit 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/vr4eslav/trunner.svg?style=for-the-badge
-[contributors-url]: https://github.com/vR4eslav/trunner/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/vR4eslav/trunner.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/vyual/trunner.svg?style=for-the-badge
+[contributors-url]: https://github.com/vyual/trunner/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/vyual/trunner.svg?style=for-the-badge
 [forks-url]: https://github.com/vR4eslav/trunner/network/members
-[stars-shield]: https://img.shields.io/github/stars/vR4eslav/trunner.svg?style=for-the-badge
-[stars-url]: https://github.com/vR4eslav/trunner/stargazers
-[issues-shield]: https://img.shields.io/github/issues/vr4eslav/trunner.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/vyual/trunner.svg?style=for-the-badge
+[stars-url]: https://github.com/vyual/trunner/stargazers
+[issues-shield]: https://img.shields.io/github/issues/vyual/trunner.svg?style=for-the-badge
 [issues-url]: https://github.com/vR4eslav/trunner/issues
-[license-shield]: https://img.shields.io/github/license/vr4eslav/trunner.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/vyual/trunner.svg?style=for-the-badge
 [license-url]: https://github.com/vR4eslav/trunner/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/valisov

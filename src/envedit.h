@@ -6,18 +6,19 @@
 #include <QMessageBox>
 
 namespace Ui {
-class EnvEdit;
+    class EnvEdit;
 }
 
-class EnvEdit : public QDialog
-{
-    Q_OBJECT
+class EnvEdit : public QDialog {
+Q_OBJECT
 
 public:
     explicit EnvEdit(QWidget *parent = nullptr);
-    ~EnvEdit();
+
+    ~EnvEdit() override;
 
 private slots:
+
     void on_exploreBtn_clicked();
 
     void on_openEnv_clicked();

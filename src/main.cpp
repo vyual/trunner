@@ -4,14 +4,15 @@
 //#include <QTranslator>
 
 // TODO complete translations change with registry
-int main(int argc, char *argv[])
-{
-    QApplication a(argc, argv);
+int main(int argc, char *argv[]) {
+    QApplication app(argc, argv);
 //    QTranslator translator;
 //    translator.load("po/trunner_ru_RU.qm", ".");
 //    a.installTranslator(&translator);
 
+    QFont font("Arial");
+    QApplication::setFont(font);
     MainWindow w;
     w.show();
-    return a.exec();
+    return QApplication::exec();
 }

@@ -10,21 +10,22 @@
 #include <QDesktopServices>
 #include <QTimer>
 #include <QMainWindow>
-#include <src/envedit.h>
+#include "envedit.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow
-{
-    Q_OBJECT
+class MainWindow : public QMainWindow {
+Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
-    ~MainWindow();
+    explicit MainWindow(QWidget *parent = nullptr);
+
+    ~MainWindow() override;
 
 private slots:
+
     void timerSlot();
 
     void on_exploreButton_clicked();
@@ -53,4 +54,5 @@ private:
     int ms, s, m, h, d;
     bool flag;
 };
+
 #endif // MAINWINDOW_H

@@ -137,8 +137,8 @@ void MainWindow::on_botGitUpdateButton_clicked() {
     QString url = ui->urlGitRepoEdit->text();
     if (url.isEmpty()) {
         QMessageBox::warning(this, tr("Url Error | Telerunner"),
-                             tr("Enter the link using the field above"),
-                             QMessageBox::Cancel);
+                                   tr("Enter the link using the field above"),
+                                   QMessageBox::Cancel);
     } else {
         QString executeCommand;
         executeCommand = "git pull";

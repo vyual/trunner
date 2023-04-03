@@ -153,6 +153,6 @@ void MainWindow::on_botGitUpdateButton_clicked() {
 }
 
 void MainWindow::on_actionEdit_triggered() {
-    auto *envEdit = new EnvEdit;
+    EnvEdit *envEdit = new EnvEdit;
     envEdit->exec();
 }

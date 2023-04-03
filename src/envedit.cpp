@@ -25,8 +25,8 @@ void EnvEdit::on_openEnv_clicked() {
     QString directory = envEditUi->pathToEnv->text();
     if (directory.isEmpty()) {
         QMessageBox::warning(this, tr("Path Error | Telerunner"),
-                             tr("Enter the path using the field above, or the button \"...\""),
-                             QMessageBox::Cancel);
+                                   tr("Enter the path using the field above, or the button \"...\""),
+                                   QMessageBox::Cancel);
     } else {
         QFile env(directory);
         if (env.open(QIODevice::ReadWrite)) {

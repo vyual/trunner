@@ -31,10 +31,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/vyual/trunner">
-    <img src="recources/window_icon.png" alt="Logo" width="80" height="80">
+    <img src="recources/window_icon.png" alt="Logo" width="128" height="128">
   </a>
 
-  <h3 align="center">TeleRunner</h3>
+<h3 align="center">TeleRunner</h3>
 
   <p align="center">
     Run and host your python telegram bots!
@@ -77,15 +77,18 @@
 
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/vyual/trunner)
 
-This multi-tool was created by a telegram bot developer for anyone who wants to simplify the work involved in developing, hosting and managing their telegram bot.
+This multi-tool was created by a telegram bot developer for anyone who wants to simplify the work involved in
+developing, hosting and managing their telegram bot.
 
 The project is actively developing and wants to attract as many contributors as possible!
 
 What you can do:
+
 * Run and host your bots!
 * Make all the necessary debugging and control the performance
 * See your bot's uptime
@@ -94,9 +97,8 @@ What you can do:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Built With
+
 * QT 5.12.8
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -104,14 +106,17 @@ What you can do:
 
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 Here's instructions:
 
 ### Prerequisites
 
-You need install QT 5.12.8 tools for development. For a static release, you need to build a static build of qt and use it (linux only). To build for Windows, you need to use the Windows tools. If you're on Linux, like me, use MXE and the guide from <a href="https://askubuntu.com/questions/656219/building-a-windows-executable-in-qt-on-a-linux-system">here</a>.
-
+You need install QT 5.12.8 tools for development. For a static release, you need to build a static build of qt and use
+it (linux only). To build for Windows, you need to use the Windows tools. If you're on Linux, like me, use MXE and the
+guide from <a href="https://askubuntu.com/questions/656219/building-a-windows-executable-in-qt-on-a-linux-system">
+here</a>.
 
 ### Installation
 
@@ -130,9 +135,11 @@ _It's simple._
 
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 What you can do:
+
 * Run and host your bots!
 * Make all the necessary debugging and control the performance
 * See your bot's uptime
@@ -146,6 +153,7 @@ What you can do:
 
 
 <!-- ROADMAP -->
+
 ## Roadmap
 
 - [x] Add UpTime
@@ -163,12 +171,14 @@ See the [open issues](https://github.com/vyual/trunner) for a full list of propo
 
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any
+contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also
+simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
 2. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
@@ -180,6 +190,7 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the GPL-3.0 license. See `LICENSE.txt` for more information.
@@ -189,6 +200,7 @@ Distributed under the GPL-3.0 license. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
+
 ## Contact
 
 Vyacheslav - botdevslava@gmail.com
@@ -218,16 +230,29 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/vyual/trunner.svg?style=for-the-badge
+
 [contributors-url]: https://github.com/vyual/trunner/graphs/contributors
+
 [forks-shield]: https://img.shields.io/github/forks/vyual/trunner.svg?style=for-the-badge
+
 [forks-url]: https://github.com/vR4eslav/trunner/network/members
+
 [stars-shield]: https://img.shields.io/github/stars/vyual/trunner.svg?style=for-the-badge
+
 [stars-url]: https://github.com/vyual/trunner/stargazers
+
 [issues-shield]: https://img.shields.io/github/issues/vyual/trunner.svg?style=for-the-badge
+
 [issues-url]: https://github.com/vR4eslav/trunner/issues
+
 [license-shield]: https://img.shields.io/github/license/vyual/trunner.svg?style=for-the-badge
+
 [license-url]: https://github.com/vR4eslav/trunner/blob/main/LICENSE
+
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
 [linkedin-url]: https://linkedin.com/in/valisov
+
 [product-screenshot]: recources/screenshot.png

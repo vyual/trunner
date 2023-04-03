@@ -20,9 +20,9 @@ class MainWindow : public QMainWindow {
 Q_OBJECT
 
 public:
-    explicit MainWindow(QWidget *parent = nullptr);
+    MainWindow(QWidget *parent = nullptr);
 
-    ~MainWindow() override;
+    ~MainWindow();
 
 private slots:
 

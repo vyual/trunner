@@ -127,11 +127,16 @@ void MainWindow::on_clearButton_clicked() {
     ui->consoleStdOutput->clear();
 }
 
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "readability-static-accessed-through-instance"
+
 void MainWindow::on_actionGithub_triggered() {
     QDesktopServices service;
     QUrl link = QUrl("https://github.com/vR4eslav/trunner");
-    QDesktopServices::openUrl(link);
+    service.openUrl(link);
 }
+
+#pragma clang diagnostic pop
 
 void MainWindow::on_botGitUpdateButton_clicked() {
     QString url = ui->urlGitRepoEdit->text();

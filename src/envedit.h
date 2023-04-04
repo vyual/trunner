@@ -1,9 +1,7 @@
 #ifndef ENVEDIT_H
 #define ENVEDIT_H
 
-#include <QDialog>
-#include <QFileDialog>
-#include <QMessageBox>
+#include <QtWidgets>
 
 namespace Ui {
     class EnvEdit;

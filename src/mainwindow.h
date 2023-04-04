@@ -1,15 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QMainWindow>
-#include <QDir>
-#include <QFileDialog>
-#include <QMessageBox>
-#include <QProcess>
-#include <QDebug>
-#include <QDesktopServices>
-#include <QTimer>
-#include <QMainWindow>
+#include <QtWidgets>
 #include "envedit.h"
 
 QT_BEGIN_NAMESPACE

@@ -1,7 +1,5 @@
 #include "mainwindow.h"
 
-#include <QApplication>
-//#include <QTranslator>
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wunknown-pragmas"

@@ -15,17 +15,17 @@ public:
 
     ~EnvEdit() override;
 
-private slots:
+public slots:
 
-    void on_exploreBtn_clicked();
+    void onExploreBtnClicked();
 
-    void on_openEnv_clicked();
+    void onOpenEnvClicked();
 
-    void on_saveBtn_clicked();
+    void onSaveBtnClicked();
 
-    void on_closeBtn_clicked();
+    void onCloseBtnClicked();
 
-    void on_autoFind_clicked();
+    void onAutoFindClicked();
 
 private:
     Ui::EnvEdit *envEditUi;

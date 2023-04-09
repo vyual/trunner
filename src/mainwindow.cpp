@@ -2,7 +2,7 @@
 #include "ui_mainwindow.h"
 
 
-QProcess proc;
+QProcess proc; // NOLINT(cert-err58-cpp)
 
 MainWindow::MainWindow(QWidget *parent)
         : QMainWindow(parent), ui(new Ui::MainWindow) {
@@ -43,7 +43,7 @@ void MainWindow::timerSlot() {
             "s");
 }
 
-void MainWindow::on_exploreButton_clicked() {
+void MainWindow::onExploreButtonClicked() {
     QString directory = QFileDialog::getOpenFileName(0,
                                                      tr("Run file"));
 
@@ -53,7 +53,7 @@ void MainWindow::on_exploreButton_clicked() {
     ui->pathLineEdit->setText(directory);
 }
 
-void MainWindow::on_runButton_clicked() {
+void MainWindow::onRunButtonClicked() {
     if (!flag) {
         ui->consoleStdError->clear();
         ui->consoleStdOutput->clear();
@@ -106,14 +106,14 @@ void MainWindow::slotDataOnStderr() {
 }
 
 
-void MainWindow::on_actionSettings_triggered() {
+void MainWindow::onActionSettingsTriggered() {
     QMessageBox::information(this, tr("Development..."),
                              tr("Development proces..."),
                              QMessageBox::Cancel);
 }
 
 
-void MainWindow::on_actionAuthor_triggered() {
+void MainWindow::onActionAuthorTriggered() {
     QMessageBox::about(this, tr("About"),
                        tr("This program was created for convenient "
                           "GUI hosting of telegram bots, created for developers "
@@ -122,7 +122,7 @@ void MainWindow::on_actionAuthor_triggered() {
                           "Full-fledged CLI tool for Ubuntu Server version will be released soon"));
 }
 
-void MainWindow::on_clearButton_clicked() {
+void MainWindow::onClearButtonClicked() {
     ui->consoleStdError->clear();
     ui->consoleStdOutput->clear();
 }
@@ -130,7 +130,7 @@ void MainWindow::on_clearButton_clicked() {
 #pragma clang diagnostic push
 #pragma ide diagnostic ignored "readability-static-accessed-through-instance"
 
-void MainWindow::on_actionGithub_triggered() {
+void MainWindow::onActionGithubTriggered() {
     QDesktopServices service;
     QUrl link = QUrl("https://github.com/vR4eslav/trunner");
     service.openUrl(link);
@@ -138,7 +138,7 @@ void MainWindow::on_actionGithub_triggered() {
 
 #pragma clang diagnostic pop
 
-void MainWindow::on_botGitUpdateButton_clicked() {
+void MainWindow::onBotGitUpdateButtonClicked() {
     QString url = ui->urlGitRepoEdit->text();
     if (url.isEmpty()) {
         QMessageBox::warning(this, tr("Url Error | Telerunner"),
@@ -152,7 +152,7 @@ void MainWindow::on_botGitUpdateButton_clicked() {
     }
 }
 
-void MainWindow::on_actionEdit_triggered() {
+void MainWindow::onActionEditTriggered() {
     EnvEdit *envEdit = new EnvEdit;
     envEdit->exec();
 }

@@ -5,15 +5,18 @@
 #pragma clang diagnostic ignored "-Wunknown-pragmas"
 #pragma ide diagnostic ignored "readability-static-accessed-through-instance"
 
-// TODO complete translations change with registry
+
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
-//    QTranslator translator;
-//    translator.load("po/trunner_ru_RU.qm", ".");
-//    app.installTranslator(&translator);
+    QTranslator translator;
 
-    QFont font("Arial");
-    app.setFont(font);
+    bool loaded = translator.load("trunner_ru_RU.qm", ".");
+    if (!loaded) {
+        qDebug() << "Failed to load translator!";
+    } else {
+        qDebug() << "Translator loaded successfully.";
+    }
+
     MainWindow w;
     w.show();
     return app.exec();

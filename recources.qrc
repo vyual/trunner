@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>recources/window_icon.ico</file>
+        <file>po/trunner_ru_RU.qm</file>
     </qresource>
 </RCC>

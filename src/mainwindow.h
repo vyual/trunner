@@ -16,29 +16,29 @@ public:
 
     ~MainWindow();
 
-private slots:
+public slots:
 
     void timerSlot();
 
-    void on_exploreButton_clicked();
+    void onExploreButtonClicked();
 
-    void on_runButton_clicked();
+    void onRunButtonClicked();
 
     void slotDataOnStdout();
 
     void slotDataOnStderr();
 
-    void on_actionSettings_triggered();
+    void onActionSettingsTriggered();
 
-    void on_actionAuthor_triggered();
+    void onActionAuthorTriggered();
 
-    void on_clearButton_clicked();
+    void onClearButtonClicked();
 
-    void on_actionGithub_triggered();
+    void onActionGithubTriggered();
 
-    void on_botGitUpdateButton_clicked();
+    void onBotGitUpdateButtonClicked();
 
-    void on_actionEdit_triggered();
+    void onActionEditTriggered();
 
 private:
     Ui::MainWindow *ui;

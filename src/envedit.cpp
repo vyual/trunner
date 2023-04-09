@@ -11,7 +11,7 @@ EnvEdit::~EnvEdit() {
     delete envEditUi;
 }
 
-void EnvEdit::onExploreBtnClicked() {
+void EnvEdit::on_exploreBtn_clicked() {
     QString directory = QFileDialog::getOpenFileName(nullptr,
                                                      tr("Run file"));
 
@@ -21,7 +21,7 @@ void EnvEdit::onExploreBtnClicked() {
     envEditUi->pathToEnv->setText(directory);
 }
 
-void EnvEdit::onOpenEnvClicked() {
+void EnvEdit::on_openEnv_clicked() {
     QString directory = envEditUi->pathToEnv->text();
     if (directory.isEmpty()) {
         QMessageBox::warning(this, tr("Path Error | Telerunner"),
@@ -36,7 +36,7 @@ void EnvEdit::onOpenEnvClicked() {
 
 }
 
-void EnvEdit::onSaveBtnClicked() {
+void EnvEdit::on_saveBtn_clicked() {
     QString directory = envEditUi->pathToEnv->text();
     QFile env(directory);
     QByteArray a = QString(envEditUi->envBrowser->toPlainText()).toUtf8();
@@ -46,16 +46,11 @@ void EnvEdit::onSaveBtnClicked() {
 
 }
 
-void EnvEdit::onCloseBtnClicked() {
+void EnvEdit::on_closeBtn_clicked() {
     EnvEdit::close();
 }
 
-void EnvEdit::onAutoFindClicked() {
-    QString envPath = QApplication::applicationDirPath() + "/.env";
-    if (QFile::exists(envPath)) {
-        // загрузить файл .env
-    } else {
-        QMessageBox::warning(this, "Warning", ".env file not found.");
-    }
-}
+// todo auto explore .env func
+void EnvEdit::on_autoFind_clicked() {
 
+}

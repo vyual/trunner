@@ -203,7 +203,7 @@ Distributed under the GPL-3.0 license. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Vyacheslav - botdevslava@gmail.com
+Vyacheslav - i@alioff.ru
 
 Project Link: [https://github.com/vyual/trunner](https://github.com/vyual/trunner)
 
